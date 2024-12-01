@@ -16,6 +16,7 @@ std::vector< char > foo(std::list< Human >& people)
             char_vector.push_back('n');
         }
         else if(iter -> isMonster() == false){
+            
             char_vector.push_back('y');
         }
     }
